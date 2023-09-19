@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>В чем отличие технологичной разработки от "давай-давай"-подхода</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+      .shower {
+        --slide-ratio: calc(16 / 9);
+        --ribbon-size: 40px;
+      }
+
+      .progress::before {
+        background-color: #ed4344;
+      }
+
+      .slide {
+        padding-top: 51px;
+        background-image: url("pictures/fc23-cover.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+      }
+
+      .slide.clear {
+        background-image: none;
+      }
+
+      .slide::after {
+        top: auto;
+        bottom: -10px;
+        left: 30px;
+        right: auto;
+        background: none;
+        color: #000;
+      }
+
+      .slide h2 {
+        color: #000;
+        font-size: 60px;
+      }
+
+      .cover {
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body class="shower list">
+    <header class="caption">
+      <h1>В чем отличие технологичной разработки от "давай-давай"-подхода</h1>
+      <p>Андрей Макар-Уваров, СИНИМЕКС</p>
+    </header>
+
+    <section class="slide clear" id="cover">
+      <div>
+        <h1>В чем отличие технологичной разработки от "давай-давай"-подхода</h1>
+        <p>Андрей Макар-Уваров, СИНИМЕКС</p>
+      </div>
+      <style>
+        #cover {
+          background: url("pictures/fc23-title-2.png") no-repeat center center;
+          background-size: contain;
+        }
+        #cover div {
+          width: 640px;
+          padding-top: 40px;
+          margin-left: -10px;
+        }
+        #cover h2 {
+          margin: 0;
+          font-size: 90px;
+        }
+        #cover p {
+          margin: 18px 0 0;
+          font-size: 34px;
+        }
+      </style>
+    </section>
+
+    <section class="slide">
+      <h2>Ключевые поинты</h2>
+      <ol>
+        <li>Стадии жизни компании</li>
+        <li>Причем тут мы? (разработчики)</li>
+        <li>Проект Стрела</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h5>Стадии жизни компании</h5>
+      <img
+          class="cover"
+          src="pictures/image1.png"
+        />
+    </section>
+
+    <section class="slide">
+      <h2>Стадии жизни компании</h2>
+      <h3>Ухаживание</h3>
+      <p>Это стадия мечтаний и изъявления серьезных намерений в отношении мечты. Будущий основатель бизнеса взвешивает идеи и возможности, много рассуждает и начинает строить амбициозные планы по созданию рыночной ниши или целого нового рынка. Ухаживание заканчивается, когда основатель решается на риск, и тогда начинается <strong>Младенчество</strong>. </p>
+    </section>
+
+    <section class="slide">
+      <h2>Стадии жизни компании</h2>
+      <h3>Младенчество</h3>
+      <div class="columns two">
+        <p style="font-size: 75%;">На этой стадии учредитель от мечтаний и возможностей переходит к производству результатов, которые в деловом мире выражаются в продажах. </p>
+
+        <p style="font-size: 75%;">В ходе Младенчества никто не задумывается о документообороте, системах, процедурах и методах контроля. Основатель очень много работает занимаясь всем подряд. Стадия Младенчества завершается, когда налаживаются стабильное движения денежных средств. Начинается стадия <strong>Давай-давай</strong>.  
+        </p>
+      </div>
+    
+    </section>
+
+    <section class="slide">
+      <h2>Стадии жизни компании</h2>
+      <h3>Давай-давай</h3>
+      <div class="columns two">
+      <p style="font-size: 75%;">Это стадия быстрого роста. 
+        Учредители формируют компанию вокруг людей, а не функций: талантливые сотрудники исполняют разную работу, но решения, к их досаде, принимает единолично учредитель. 
+        </p>
+        <p style="font-size: 75%;">Стадия Давай-давай завершается, когда компания сталкивается с проблемами. С ними приходит <strong>Юность</strong>.  </p>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Стадии жизни компании</h2>
+      <h3>Расцвет</h3>
+      <div class="columns two">
+      <p style="font-size: 75%;">Расцвет – это стадия жизненного цикла, на которой все пребывает в гармонии. Дисциплина не мешает видению, контроль находится в равновесии с гибкостью.
+        </p>
+        <p style="font-size: 75%;"> Если не прикладывать усилий, чтобы укрепиться в Расцвете, начнется <strong>Старение</strong>.  </p>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Стадии жизни компании</h2>
+      <h3>Стабильность</h3>
+      <div class="columns two">
+      <p style="font-size: 75%;">Организация все еще сильна, но ей не хватает пыла, сопровождавшего предшествующие стадии. 
+        </p>
+        <p style="font-size: 75%;"> Раньше она стремилась к тому, чего хотела. Теперь хочет того, что ей доступно. Сотрудники все еще относятся к новым идеям благожелательно, но уже без прежнего энтузиазма. Финансисты начинают внедрять контроль за краткосрочными результатами...  </p>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Стадии жизни компании</h2>
+      <h3>Аристократизм, Контробвинения, Бюрократия, Смерть...</h3>
+      <div class="columns">
+        <p>Рост элитаризма. «Не выделяться» становится лозунгом жизни. Внешние признаки респектабельности: дресс-код, офисная мебель, должностные звания – приобретают огромное значение. <strong>Дальше скучно. :-)</strong></p>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Причем тут мы? (разработчики)</h2>
+      <div style="text-align: center; height: 100%;">
+        <img
+        style="height: 60%"
+          src="pictures/image2.webp"
+        />
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Проект Стрела</h2>
+      <h3>Сказ о том как мы застряли на состоянии "Давай-давай" на год.</h3>
+      <div style="text-align: center; height: 100%;">
+      <div class="shout shrink">
+        <img
+        style="height: 200px; position: relative; top: 100px"
+          src="pictures/image3.jpg"
+        />
+      </div>
+    </div>
+    </section>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.js"></script>
+  </body>
+</html>
