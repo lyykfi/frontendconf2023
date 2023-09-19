@@ -1,13 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "pdf": "shower pdf",
-    "serve": "shower serve",
-    "archive": "shower archive",
-    "bundle": "shower bundle",
-    "publish": "shower publish"
+    "pdf": "npx shower pdf",
+    "serve": "npx shower serve",
+    "archive": "npx shower archive",
+    "bundle": "npx shower bundle",
+    "publish": "npx shower publish"
   },
   "dependencies": {
+    "@shower/cli": "^0.3.1",
     "@shower/core": "3.3.0",
     "@shower/ribbon": "3.5.1"
   }
